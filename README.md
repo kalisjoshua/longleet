@@ -19,7 +19,7 @@ Provide a HyperMedia API for individuals to test their HyperMedia API Client bot
     3. Hidden routes found by hashing algorythm
 
 ## Alternative
-One alternative is to "flip" the challenge around so that the challenge provides a "bot" which will search through a HyperMedia API the individual provides; with variations as state above.
+One alternative is to "flip" the challenge around so that the challenge provides a "bot" which will search through a HyperMedia API the individual provides; with variations as stated above.
 
 ## Etymology
 The stately home [LongLeat](http://en.wikipedia.org/wiki/Longleat) in England has on its ground a large puzzle maze which is the inspiration for the name of this project.

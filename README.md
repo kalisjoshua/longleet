@@ -22,6 +22,6 @@ Provide a HyperMedia API for individuals to test their HyperMedia API Client bot
 One alternative is to "flip" the challenge around so that the challenge provides a "bot" which will search through a HyperMedia API the individual provides; with variations as stated above.
 
 ## Etymology
-The stately home [LongLeat](http://en.wikipedia.org/wiki/Longleat) in England has on its ground a large puzzle maze which is the inspiration for the name of this project.
+The stately home [Longleat](http://en.wikipedia.org/wiki/Longleat) in England has on its ground a large puzzle maze which is the inspiration for the name of this project.
 
 The intentional misspelling is a [Portmanteau](http://en.wikipedia.org/wiki/Portmanteau) which includes from the hacker community [leet (or l33t)](http://www.urbandictionary.com/define.php?term=l33t).

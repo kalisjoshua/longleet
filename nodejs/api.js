@@ -1,5 +1,5 @@
 
-var endpoint = require('../endpoint.js');
+var endpoint = require('./endpoint.js');
 
 module.exports = endpoint('', [
   endpoint('/alpha', [

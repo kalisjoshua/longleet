@@ -1,19 +1,22 @@
 
-function api_search (api, url) {
+function apiSearch(api, url) {
+
   return url
     .replace(/^\/|\/$/g, '')
     .split('/')
-    .reduce(api_search_reduce, api);
+    .reduce(apiSearchReduce, api);
 }
 
-function api_search_filter (part, link) {
+function apiSearchFilter(part, link) {
+
   return link.path
     .slice(1) === part;
 }
 
-function api_search_reduce (tree, part) {
+function apiSearchReduce(tree, part) {
+
   return tree.links
-    .filter(api_search_filter.bind(null, part))[0];
+    .filter(apiSearchFilter.bind(null, part))[0];
 }
 
-module.exports = api_search;
+module.exports = apiSearch;

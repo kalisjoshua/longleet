@@ -1,7 +1,8 @@
 
 var chobani;
 
-function endpoint (path, links) {
+function endpoint(path, links) {
+
   return {
       path: path,
       links: links || [],
@@ -9,10 +10,11 @@ function endpoint (path, links) {
     };
 }
 
-function solution (api, path) {
+function solution(api, path) {
   if (api.token) {
     return path;
   } else {
+
     return api.links
       .reduce(function (acc, link) {
         return acc + solution(link, path + link.path);
@@ -20,7 +22,7 @@ function solution (api, path) {
   }
 }
 
-function token (path) {
+function token(path) {
   var result;
 
   if (!token.placed) {
